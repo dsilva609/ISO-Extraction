@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Resources">
+      <UniqueIdentifier>{429ab0a7-9779-48da-9582-0397c23e37c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.iso">
@@ -23,5 +26,58 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cdfiles\BothEndianInt.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\BothEndianShort.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\DescriptorDateTime.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\DirectoryDateTime.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\DirectoryRecord.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\main.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\PrimaryVolumeDescriptor.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\RockridgeNM.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cdfiles\RockridgePX.cpp">
+      <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cdfiles\BothEndianInt.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\BothEndianShort.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\DescriptorDateTime.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\DirectoryDateTime.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\DirectoryRecord.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\PrimaryVolumeDescriptor.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\RockridgeNM.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cdfiles\RockridgePX.h">
+      <Filter>Resource Files\Resources</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
