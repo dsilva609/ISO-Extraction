@@ -1,64 +1,10 @@
-//#include <iostream>
-//#include <fstream>
-//#include <string>
-//
-//using namespace std;
-//
-//int main()
-//{
-//	cout << "hello world" << endl;
-//
-//	fstream iso;
-//	string lineIn;
-//
-//	iso.open("test.iso", ios_base::in | ios_base::binary);
-//
-//	if (iso.good())
-//	{
-//		/*while (iso.good())
-//		{
-//		cout << "reading..." << endl;
-//		getline(iso, lineIn);
-//		cout << lineIn << endl;
-//		}*/
-//
-//		char sector[2048];
-//		iso.seekg(16 * 2048, ios_base::beg);
-//		iso.read(sector, 2048);
-//		cout << sector << endl;
-//
-//		//		iso.seekg(16 * 2048);
-//		iso.read(sector, 2048);
-//		cout << sector << endl;
-//
-//		iso.read(sector, 2048);
-//		cout << sector << endl;
-//		iso.read(sector, 2048);
-//		cout << sector << endl;
-//		if (iso.gcount() != 2048)
-//		{
-//			// Short Read -- OOPs!
-//		}
-//		//pdesc = new PrimaryVolumeDescriptor(sector);
-//		//int rootDirectoryLocation = pdesc->getRootDirectory().getLocation().getValue();
-//		//iso.seekg(rootDirectoryLocation * 2048, ios_base::beg);
-//		iso.read(sector, 2048);
-//	}
-//	else
-//		cout << "could not open file" << endl;
-//
-//	iso.close();
-//
-//	return EXIT_SUCCESS;
-//}
-
 #include <cstdlib>
 #include <iostream>
 #include <iomanip>
 #include <fstream>
-#include "Resources\BothEndianInt.h"
-#include "Resources\BothEndianShort.h"
-#include  "Resources\PrimaryVolumeDescriptor.h"
+#include "BothEndianInt.h"
+#include "BothEndianShort.h"
+#include "PrimaryVolumeDescriptor.h"
 using namespace std;
 
 int main(int argCount, char *argValues[])
@@ -67,8 +13,8 @@ int main(int argCount, char *argValues[])
 	BothEndianShort testValue2("\x43\x21\x21\x43"); \
 		PrimaryVolumeDescriptor *pdesc;
 	/*
-	* quick test of the BothEndian classes....
-	*/
+	 * quick test of the BothEndian classes....
+	 */
 	cout << testValue1.getValue() << endl;
 
 	testValue1.setValue(4660);
@@ -94,9 +40,9 @@ int main(int argCount, char *argValues[])
 	cout << endl << dec;
 	cout << endl;
 	/*
-	* test the primary Volume Descriptor structure.  Need an ISO
-	* image to do this correctly...
-	*/
+	 * test the primary Volume Descriptor structure.  Need an ISO
+	 * image to do this correctly...
+	 */
 	ifstream isoImage;
 	isoImage.open("test.iso", ios_base::in | ios_base::binary);
 	// isoImage.open("simple.iso", ios_base::in | ios_base::binary);
