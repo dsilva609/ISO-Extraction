@@ -81,13 +81,12 @@
     <None Include="twolevel.iso" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="Resources\BothEndianInt.cpp" />
     <ClCompile Include="Resources\BothEndianShort.cpp" />
     <ClCompile Include="Resources\DescriptorDateTime.cpp" />
     <ClCompile Include="Resources\DirectoryDateTime.cpp" />
     <ClCompile Include="Resources\DirectoryRecord.cpp" />
-    <ClCompile Include="Resources\main.cpp" />
     <ClCompile Include="Resources\PrimaryVolumeDescriptor.cpp" />
     <ClCompile Include="Resources\RockridgeNM.cpp" />
     <ClCompile Include="Resources\RockridgePX.cpp" />

@@ -21,9 +21,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Resources\BothEndianInt.cpp">
       <Filter>Resource Files\Resources</Filter>
     </ClCompile>
@@ -39,9 +36,6 @@
     <ClCompile Include="Resources\DirectoryRecord.cpp">
       <Filter>Resource Files\Resources</Filter>
     </ClCompile>
-    <ClCompile Include="Resources\main.cpp">
-      <Filter>Resource Files\Resources</Filter>
-    </ClCompile>
     <ClCompile Include="Resources\PrimaryVolumeDescriptor.cpp">
       <Filter>Resource Files\Resources</Filter>
     </ClCompile>
@@ -50,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="Resources\RockridgePX.cpp">
       <Filter>Resource Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
