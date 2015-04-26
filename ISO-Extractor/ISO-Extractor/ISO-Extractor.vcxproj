@@ -76,7 +76,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="flat.iso" />
     <None Include="test.iso" />
+    <None Include="twolevel.iso" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cdfiles\BothEndianInt.cpp" />

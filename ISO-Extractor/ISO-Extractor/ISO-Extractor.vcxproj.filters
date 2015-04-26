@@ -16,11 +16,9 @@
     <Filter Include="Resource Files\Resources">
       <UniqueIdentifier>{429ab0a7-9779-48da-9582-0397c23e37c4}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="test.iso">
-      <Filter>Resource Files</Filter>
-    </None>
+    <Filter Include="Resource Files\ISOs">
+      <UniqueIdentifier>{3106548f-74e7-47f9-9db1-b089a0d03f72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -79,5 +77,16 @@
     <ClInclude Include="cdfiles\RockridgePX.h">
       <Filter>Resource Files\Resources</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.iso">
+      <Filter>Resource Files\ISOs</Filter>
+    </None>
+    <None Include="flat.iso">
+      <Filter>Resource Files\ISOs</Filter>
+    </None>
+    <None Include="twolevel.iso">
+      <Filter>Resource Files\ISOs</Filter>
+    </None>
   </ItemGroup>
 </Project>
