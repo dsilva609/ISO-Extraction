@@ -81,26 +81,26 @@
     <None Include="twolevel.iso" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cdfiles\BothEndianInt.cpp" />
-    <ClCompile Include="cdfiles\BothEndianShort.cpp" />
-    <ClCompile Include="cdfiles\DescriptorDateTime.cpp" />
-    <ClCompile Include="cdfiles\DirectoryDateTime.cpp" />
-    <ClCompile Include="cdfiles\DirectoryRecord.cpp" />
-    <ClCompile Include="cdfiles\main.cpp" />
-    <ClCompile Include="cdfiles\PrimaryVolumeDescriptor.cpp" />
-    <ClCompile Include="cdfiles\RockridgeNM.cpp" />
-    <ClCompile Include="cdfiles\RockridgePX.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Resources\BothEndianInt.cpp" />
+    <ClCompile Include="Resources\BothEndianShort.cpp" />
+    <ClCompile Include="Resources\DescriptorDateTime.cpp" />
+    <ClCompile Include="Resources\DirectoryDateTime.cpp" />
+    <ClCompile Include="Resources\DirectoryRecord.cpp" />
+    <ClCompile Include="Resources\main.cpp" />
+    <ClCompile Include="Resources\PrimaryVolumeDescriptor.cpp" />
+    <ClCompile Include="Resources\RockridgeNM.cpp" />
+    <ClCompile Include="Resources\RockridgePX.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cdfiles\BothEndianInt.h" />
-    <ClInclude Include="cdfiles\BothEndianShort.h" />
-    <ClInclude Include="cdfiles\DescriptorDateTime.h" />
-    <ClInclude Include="cdfiles\DirectoryDateTime.h" />
-    <ClInclude Include="cdfiles\DirectoryRecord.h" />
-    <ClInclude Include="cdfiles\PrimaryVolumeDescriptor.h" />
-    <ClInclude Include="cdfiles\RockridgeNM.h" />
-    <ClInclude Include="cdfiles\RockridgePX.h" />
+    <ClInclude Include="Resources\BothEndianInt.h" />
+    <ClInclude Include="Resources\BothEndianShort.h" />
+    <ClInclude Include="Resources\DescriptorDateTime.h" />
+    <ClInclude Include="Resources\DirectoryDateTime.h" />
+    <ClInclude Include="Resources\DirectoryRecord.h" />
+    <ClInclude Include="Resources\PrimaryVolumeDescriptor.h" />
+    <ClInclude Include="Resources\RockridgeNM.h" />
+    <ClInclude Include="Resources\RockridgePX.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
