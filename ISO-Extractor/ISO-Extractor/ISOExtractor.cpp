@@ -15,9 +15,9 @@ public:
 	void TestEndianess()
 	{
 		BothEndianInt testValue1("\x78\x56\x34\x12\x12\x34\x56\x78");
-		BothEndianShort testValue2("\x43\x21\x21\x43"); \
+		BothEndianShort testValue2("\x43\x21\x21\x43");
 
-			cout << testValue1.getValue() << endl;
+		cout << testValue1.getValue() << endl;
 
 		testValue1.setValue(4660);
 		cout << testValue1.getValue() << endl;
