@@ -81,6 +81,7 @@
     <None Include="twolevel.iso" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ISOExtractor.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Resources\BothEndianInt.cpp" />
     <ClCompile Include="Resources\BothEndianShort.cpp" />
