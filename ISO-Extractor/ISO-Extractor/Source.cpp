@@ -4,9 +4,7 @@ int main(int argCount, char *argValues[])
 {
 	ISOExtractor extractor;
 
-	extractor.TestEndianess();
-
-	extractor.TestISO("test.iso");
+	extractor.Execute("test.iso");
 
 	return EXIT_SUCCESS;
 }

@@ -11,6 +11,14 @@ using namespace std;
 class ISOExtractor
 {
 public:
+	void Execute(string filename)
+	{
+		this->TestEndianess();
+
+		this->TestISO(filename);
+	}
+
+private:
 
 	void TestEndianess()
 	{
